@@ -220,24 +220,25 @@ p {
 
 
 .header-text {
-  padding-top: 165px;
+  padding-top: 130px;
 } 
    
 .header-img {
-  margin-top: -100px;
+  margin-top: 100px;
 }   
    
 #main1 {
   background: #f4f4f4;
   padding-top: 100px;
-  min-height: 500px;
-  overflow: hidden;
+  min-height: 0px;
+  overflow: absolute;
   height: auto;
 }
 
 .main1-img {
   position: absolute;
   right: 0;
+
 }
 
 
@@ -265,12 +266,12 @@ blockquote {
 }
 
 #message {
-  padding: 30px 0px;
+  padding: 100px 0px;
   background: #13c4af;
 }
 
 #bottom {
-  padding: 40px 0px;
+  padding: 100px 0px;
   background: #f4f4f4;
   overflow-y: hidden;
 }
@@ -333,7 +334,7 @@ footer {
 
 .header-img {
   position: absolute;
-  margin-left: -120px;
+  margin-left: -140px;
   left:0;
 }
 
@@ -410,4 +411,10 @@ footer {
 @media (min-width: 1200px) and (max-width: 3000px) {
 
 }   
+
+
+
+
+
+
 
