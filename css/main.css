@@ -35,7 +35,8 @@ h2 {
 h3 {
   font-size: 30px;
   font-weight: 300;
-  color: #ffffff;
+  color: #545454;
+  background-size: 100% 100% ;
 }
 
 p {
@@ -203,7 +204,9 @@ p {
     box-shadow: 0 0px 0 rgba(0, 0, 0, 0.0) inset;
 }
 
-
+/*================================================================
+navigation bar test 
+===============================================================*/
 
 
 
@@ -213,69 +216,23 @@ p {
    Main styles
    ========================================================================== */
 #header {
-  background: #4eacdd;
-  height: 650px;
+  background: #0061b1;
+  height: 300px;
   overflow: hidden;
 }
 
-
-.header-text {
-  padding-top: 130px;
-} 
-   
-.header-img {
-  margin-top: 100px;
-  width: 100%;
-  max-width: 400px;
-  height: auto;
-}   
    
 #main1 {
   background: #f4f4f4;
-  padding-top: 100px;
+  padding-top: 50px;
   min-height: 0px;
   overflow: absolute;
   height: auto;
 }
 
-.main1-img {
-  position: absolute;
-  right: 0;
-
-}
-
-
-blockquote {
-    border-left: 8px solid #4eacdd;
-    font-size: 16.5px;
-    color: #7e7e7e;
-    font-style: italic;
-    margin: 0 0 20px;
-    padding: 0px 20px;
-}
-
-#main2 {
-  background: #ffffff;
-  padding-top: 140px;
-  height: 650px;
-  overflow: hidden;
-}
-
-.main2-img {
-    left: 0;
-    margin-left: -300px;
-    margin-top: 160px;
-    position: absolute;
-}
-
-#message {
-  padding: 100px 0px;
-  background: #13c4af;
-}
-
 #bottom {
-  padding: 100px 0px;
-  background: #f4f4f4;
+  padding: 30px 0px;
+  background: #13c4af;
   overflow-y: hidden;
 }
 
@@ -288,17 +245,6 @@ blockquote {
   color: #545454;
   padding: 14px 16px;
   display: block;
-}
-
-.social li a:hover {
-  border: 2px solid #aeaeae;
-  background: transparent;
-  color: #aeaeae;
-  
-  -webkit-transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-    transition: all 0.35s ease-in-out;
 }
 
 .social li {
@@ -315,7 +261,7 @@ blockquote {
     color: #555555;
     display: block;
     font-size: 14px;
-    height: 55px;
+    height: 50px;
     line-height: 1.42857;
     padding: 6px 12px;
     transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
@@ -324,7 +270,7 @@ blockquote {
 
 footer {
   background: #ffffff;
-  padding: 40px 0px;
+  padding: 10px 0px;
 }
 
 
@@ -335,11 +281,18 @@ footer {
 /* Landscape phones and down */
 @media (max-width: 480px) { 
 
+#header {
+  height: 85px;
+  overflow: hidden;
+}
+	
+
 .header-img {
   position: absolute;
   margin-left: -140px;
   left:0;
 }
+
 
 #main1 {
    padding-bottom: 170px;
